@@ -1,5 +1,5 @@
 library ieee;
-use ieee.STD_LOGIC_1164.all;
+use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.math_real.all;	-- Needed for the `ceil()` function
 
