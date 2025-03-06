@@ -9,9 +9,9 @@ package functions is
 	-- ====================================
 	function bit_width (num: natural) return natural;
 
-	-- ============
-	--  VHDL quirk
-	-- ============
+	-- ==================================
+	--  Taking advantage of a VHDL quirk
+	-- ==================================
 	function bit_to_vec (b: std_logic) return std_logic_vector;
 end package functions;
 
@@ -28,9 +28,9 @@ package body functions is
 		end if;
 	end function bit_width;
 
-	-- ============
-	--  VHDL quirk
-	-- ============
+	-- ==================================
+	--  Taking advantage of a VHDL quirk
+	-- ==================================
 	function bit_to_vec (b: std_logic) return std_logic_vector is
 	begin
 		case b is
