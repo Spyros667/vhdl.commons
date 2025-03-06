@@ -1,5 +1,5 @@
 # vhdl.commons
-Common, reusable, vhdl code. (Used for synchronization).
+Common VHDL code, used across all of my designs
 
 ## [functions.vhd](functions.vhd)
 
